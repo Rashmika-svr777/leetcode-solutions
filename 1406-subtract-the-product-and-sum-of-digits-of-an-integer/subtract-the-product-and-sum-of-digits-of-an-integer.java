@@ -1,8 +1,6 @@
 class Solution {
     public int subtractProductAndSum(int n) {
         
-        if(n==0) return 0;
-
         long sum=0;
         long prod=1;
         long ans;
