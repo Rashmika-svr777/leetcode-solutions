@@ -4,8 +4,6 @@ class Solution {
         int count=0;
         int temp=num;
 
-        if(num==0) return 1;
-
         while(num!=0){
             digit=num%10;
             if(temp%digit==0){
